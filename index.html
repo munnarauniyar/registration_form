@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <form method="post">
+    <fieldset>
+        <legend style="background-color: aqua;" >Registration Form</legend>
+        <table>
+            <tr>
+                <td>
+                    <label for="fn">First Name</label>
+                </td>
+                <td>
+                    <input  type="text" id="fn" name="fn" placeholder="Enter your First Name" autofocus>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="ln">Last Name</label>
+                </td>
+                <td>
+                    <input  type="text" id="ln" name="ln" placeholder="Enter Your Last Name" autofocus>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="ew">Email</label></td>
+                <td><input type="text" name="ew" id="ew" placeholder=" eg - abc123@gmail.com"></td>
+            </tr>
+            <tr>
+                <td><label for="pw">Password</label></td>
+                <td><input type="password" name="pw" id="pw" ></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender</label></td>
+                <td><input type="radio" name="gender" id="gender" value="male">Male &nbsp;
+                <input type="radio" name="gender" id="gender" value="female">Female</td>
+            </tr>
+            <tr>
+                <td><label for="lang">Fav Language &nbsp;&nbsp;&nbsp;</label></td> 
+                <td>
+                <input type="checkbox" name="lang" id="lang">JS &nbsp;
+                 <input type="checkbox" name="lang" id="lang">SQL &nbsp;
+                  <input type="checkbox" name="lang" id="lang">Python</td>
+            </tr>
+            <tr>
+                <td><label for="course">Course</label></td>
+                <td> 
+                    <select name="course" id="course" required>
+                    <option value="BIM">BIM</option>
+                    <option value="BCA">BCA</option>
+                    <option value="B.tech">B.tech</option>
+                    <option value="BIT">BIT</option>
+                    <option value="Bsc.CSIT">BCS.CSIT</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="sem">Sem</label></td>
+                <td>
+                    <select name="sem" id="sem" required>
+                        <option value="1st">1st</option>
+                        <option value="2nd">2nd</option>
+                        <option value="3rd">3rd</option>
+                        <option value="4th">4th</option>
+                        <option value="5th">5th</option>
+                        <option value="6th">6th</option>
+                        <option value="7th">7th</option>
+                        <option value="8th">8th</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><input type="reset" name="reset" id="reset"></td>
+           
+                <td><input type="submit" name="submit" id="submit"></td>
+            </tr>
+
+        </table>
+    </fieldset>
+    </form>
+</body>
+
+</html>
